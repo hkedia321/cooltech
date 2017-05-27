@@ -23,6 +23,9 @@
 .navbar-logo{
 	width: 300px;
 }
+body{
+	font-family: 'Montserrat', sans-serif !important;
+}
 nav{
 	background-color: rgba(0,0,0,0);
 	box-shadow: none;
