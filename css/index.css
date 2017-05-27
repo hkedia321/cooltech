@@ -1,0 +1,189 @@
+.display-inline-block{
+	display: inline-block;
+}
+.cursor-pointer{
+	cursor: pointer !important;
+}
+.padding-0{
+	padding: 0px !important;
+}
+.padding-left-0{
+	padding-left: 0px !important;
+}
+.margin-bottom-0{
+	margin-bottom: 0px !important;
+}
+.margin-top-0{
+	margin-top: 0px !important;
+}
+#sidenav-overlay{
+	display: none !important;
+	opacity: 0 !important;
+}
+.navbar-logo{
+	width: 300px;
+}
+nav{
+	background-color: rgba(0,0,0,0);
+	box-shadow: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+nav.scrolled{
+	background-color: #222;
+
+}
+.home{
+	background-image: url('../img/front_bg.jpg');
+	background-size: cover;
+	min-height: 100vh;
+}
+.navlink{
+	height: 60px;
+}
+.navlink.active{
+	border-bottom: 1px solid #fff;
+}
+.home .home-tag-div{
+	margin-top: 10rem;
+	margin-left: 5rem;
+}
+.home-tag-div .wearecool{
+	margin-bottom: 0pc;
+}
+.home-tag-div .onestop{
+	margin-top: 0pc;
+	padding-left: 10px;
+}
+
+.mainheading{
+	padding: 0px 19px;
+	padding-bottom: 8px;
+	border-bottom: 0.1rem solid #000;
+}
+
+.cooltech_fridge{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.services-card{
+	padding: 5px 60px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.services-card-img{
+	width: 75% !important;
+	height: 130px !important;
+}
+.services-card-img.multibrand{
+	width: 100% !important;
+}
+.services-div-wrap{
+	padding:0px 30px !important;
+}
+.whatsonshelf-content-div{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.services-img-row .col{
+	padding: 2px;
+}
+
+.side-by-side{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.testimonials-heading-div{
+	margin-left: 2rem;
+}
+.testimonial-box{
+	margin-top: 4rem;
+	padding: 4rem 3rem 1rem 1rem;
+	width: 80%;
+	margin-left: 2rem;
+	background-color: rgb(192,192,192);
+}
+.funfacts-col{
+	padding: 1rem 2rem !important;
+	padding-bottom: 3rem !important;
+	background-color: rgb(192,192,192);
+}
+.facts-text-div{
+	background-color: #fff;
+	padding: 10px;
+}
+.facts-icon-div{
+	background-color: #fff;
+	padding: 5px;
+	vertical-align: middle;
+	padding-top: 2rem;
+}
+.facts-icon-div img{
+	vertical-align: middle;
+}
+.facts-number{
+	font-weight: 900;
+	margin: 0px;
+}
+.brands-logos-div{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.contact-div-wrap{
+	padding: 0 30px;
+}
+
+
+.about{
+	background-color: #2b2192;/*dark blue*/
+	padding: 20px 10px;
+}
+.about-cooltech-text{
+	font-size: 1.3rem;
+}
+.brand-logo-col .card{
+	padding: 10px !important;
+	height: 140px;
+}
+.footer{
+	background-color: #313131;
+	padding: 40px 20px;
+}
+
+@media(min-width: 769px){
+	.home{
+		background-position: 0 -120px;
+	}
+	.side-half-img{
+		height: 110px !important;
+		width: 100% !important;
+	}
+	.address-text{
+		margin-top: 1.5rem;
+	}
+}
+
+@media(max-width: 769px){
+	.services-card img{
+		width: 90%;
+		height: 120px;
+	}
+	.services-card{
+		padding: 5px 10px;
+	}
+	.home .home-tag-div{
+		margin-top: 7rem;
+		margin-left: 1rem;
+	}
+	.navbar-logo{
+		margin-left: 5rem;
+	}
+	.funfacts-col{
+		margin-top: 2rem;
+	}
+}
