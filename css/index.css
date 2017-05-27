@@ -16,12 +16,19 @@
 .margin-top-0{
 	margin-top: 0px !important;
 }
+.text-justify{
+	text-align: justify;
+}
 #sidenav-overlay{
 	display: none !important;
 	opacity: 0 !important;
 }
 .navbar-logo{
 	width: 300px;
+}
+.z-depth-3{
+	-webkit-box-shadow: 0 2px 40px 4px rgba(208,208,208,.5) !important;
+	box-shadow: 0 2px 40px 4px rgba(208,208,208,.5) !important;
 }
 body{
 	font-family: 'Montserrat', sans-serif !important;
@@ -40,7 +47,7 @@ nav.scrolled{
 
 }
 .home{
-	background-image: url('../img/front_bg.jpg');
+	background-image: url('../img/front_bg2.jpg');
 	background-size: cover;
 	min-height: 100vh;
 }
@@ -88,10 +95,7 @@ nav.scrolled{
 .services-div-wrap{
 	padding:0px 30px !important;
 }
-.whatsonshelf-content-div{
-	padding-left: 20px;
-	padding-right: 20px;
-}
+
 .services-img-row .col{
 	padding: 2px;
 }
@@ -108,22 +112,35 @@ nav.scrolled{
 	padding: 4rem 3rem 1rem 1rem;
 	width: 80%;
 	margin-left: 2rem;
-	background-color: rgb(192,192,192);
+	/*background-color: rgb(192,192,192);*/
 }
 .funfacts-col{
-	padding: 1rem 2rem !important;
+	padding: 0.5rem 2rem !important;
 	padding-bottom: 3rem !important;
-	background-color: rgb(192,192,192);
+	/*background-color: rgb(192,192,192);*/
 }
 .facts-text-div{
 	background-color: #fff;
-	padding: 10px;
+	padding: 10px !important;
+	display: inline-block;
+}
+.facts-text-div:nth-child(odd){
+	padding-right: 0px;
+}
+.facts-text-div:nth-child(even){
+	padding-left: 0px;
 }
 .facts-icon-div{
-	background-color: #fff;
-	padding: 5px;
-	vertical-align: middle;
-	padding-top: 2rem;
+	display: inline-block;
+}
+.facts-icon-div img{
+	width: 100px;
+}
+.facts-heading-text{
+	font-size: 1.2rem;
+}
+.facts-text-col{
+	/*margin: 0px;	*/
 }
 .facts-icon-div img{
 	vertical-align: middle;
@@ -153,14 +170,21 @@ nav.scrolled{
 	padding: 10px !important;
 	height: 140px;
 }
+.map-div{
+	padding: 20px;
+}
+.map-iframe{
+	width: 100%;
+	height: 300px;
+}
 .footer{
 	background-color: #313131;
-	padding: 40px 20px;
+	padding: 20px 20px;
 }
 
 @media(min-width: 769px){
 	.home{
-		background-position: 0 -120px;
+		/*background-position: 0 -120px;*/
 	}
 	.side-half-img{
 		height: 110px !important;
@@ -169,12 +193,16 @@ nav.scrolled{
 	.address-text{
 		margin-top: 1.5rem;
 	}
+	.whatsonshelf-content-div{
+	padding-left: 30px;
+	padding-right: 30px;
+}
 }
 
 @media(max-width: 769px){
 	.services-card img{
 		width: 90%;
-		height: 120px;
+		height: 110px !important;
 	}
 	.services-card{
 		padding: 5px 10px;
@@ -188,5 +216,8 @@ nav.scrolled{
 	}
 	.funfacts-col{
 		margin-top: 2rem;
+	}
+	.text-justify-in-mobile{
+		text-align: justify !important;
 	}
 }
