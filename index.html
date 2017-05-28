@@ -39,16 +39,16 @@
                      <a class="navlink a-home" onclick="$('html, body').animate({scrollTop: $('#home').offset().top}, 1000);">Home</a>
                    </li>
                    <li>
-                    <a class="navlink a-services" onclick="$('html, body').animate({scrollTop: $('#services').offset().top}, 1000);">Services</a>
+                   <a class="navlink a-services" onclick="$('html, body').animate({scrollTop: $('#services').offset().top-80}, 1000);">Services</a>
                   </li>
                   <li>
                     <a class="navlink a-contact"
-                    onclick="$('html, body').animate({scrollTop: $('#contact').offset().top-60}, 1000);">Contact
+                    onclick="$('html, body').animate({scrollTop: $('#contact').offset().top-80}, 1000);">Contact
                   </a>
                 </li>
                 <li>
                   <a class="navlink a-about"
-                  onclick="$('html, body').animate({scrollTop: $('#about').offset().top-60}, 1000);">About</a>
+                  onclick="$('html, body').animate({scrollTop: $('#about').offset().top-80}, 1000);">About</a>
                 </li>
 
               </ul>
@@ -58,17 +58,17 @@
                  </a>
                </li>
                <li>
-                <a class="navlink a-services" onclick="$('html, body').animate({scrollTop: $('#services').offset().top}, 1000);">Services
+                <a class="navlink a-services" onclick="$('html, body').animate({scrollTop: $('#services').offset().top-80}, 1000);">Services
                 </a>
               </li>
               <li>
                 <a class="navlink a-contact"
-                onclick="$('html, body').animate({scrollTop: $('#contact').offset().top-60}, 1000);">Contact
+                onclick="$('html, body').animate({scrollTop: $('#contact').offset().top-80}, 1000);">Contact
               </a>
             </li>
             <li>
               <a class="navlink a-about"
-              onclick="$('html, body').animate({scrollTop: $('#about').offset().top-60}, 1000);">About</a>
+              onclick="$('html, body').animate({scrollTop: $('#about').offset().top-80}, 1000);">About</a>
             </li>
 
           </ul>
@@ -114,7 +114,7 @@
       <br />
       <div class="row">
         <div class="col s12 services-div-wrap">
-        <div class="col s10 offset-s1 m3">
+          <div class="col s10 offset-s1 m3">
             <div class="card z-depth-3 services-card">
               <img class="responsive-img services-card-img" src="img/quality_assurance.png" />
             </div>
@@ -146,12 +146,8 @@
   <div class="whatsonshelf">
    <div class="container-fluid">
     <div class="row">
-      <div class="center hide-on-small-only">
+      <div class="center">
         <h3 class="center mainheading display-inline-block"><b>What's on the shelf?</b></h3>
-      </div>
-      <div class="center hide-on-med-and-up">
-        <h3 class="center mainheading display-inline-block margin-bottom-0"><b>What's on the</b></h3>
-        <h3 class="center mainheading display-inline-block"><b>shelf?</b></h3>
       </div>
     </div>
     <div class="row">
@@ -309,8 +305,8 @@
         <div class="center hide-on-med-and-up">
          <h3 class="center mainheading display-inline-block"><b>Testimonials</b></h3>
        </div>
-       <h3 class="center  testimonials-heading-div mainheading display-inline-block padding-left-0 hide-on-small-only"><b>Testimonials</b></h3>
-       <br />
+       <h3 class="center testimonials-heading-div mainheading display-inline-block padding-left-0 hide-on-small-only"><b>Testimonials</b></h3>
+
        <div class="testimonial-box z-depth-3">
         <div class="testimonial-text text-justify-in-mobile">
           I have used Cool Tech products for both my businesses 
@@ -337,103 +333,94 @@
       </div>
     </div>
     <div class="col s12 m6 funfacts-col">
-      <h3 class="center mainheading display-inline-block padding-left-0 hide-on-small-only"><b>Fun Facts about Us</b></h3>
-      <div class="center">
-       <h3 class="center mainheading display-inline-block hide-on-med-and-up margin-bottom-0"><b>Fun Facts</b> </h3>
-       <h3 class="center mainheading display-inline-block hide-on-med-and-up"><b>about Us</b> </h3>
-     </div>
-     <div class="facts-div">
+      <h3 class="center mainheading display-inline-block padding-left-0"><b>Fun Facts about Us</b></h3>
+      <div class="facts-div">
+        <div class="row margin-bottom-0 facts-row">
+          <div class="col s12 m7 padding-0 facts-text-col card z-depth-3 valign-wrapper">
+            <div class="facts-text-div col s8 m8">
+              <h6 class="facts-heading-text"><b>All client around now</b></h6>
+              <h3 class="facts-number">1267</h3>
+              <b>We proud what we do and make the company growing</b>
+            </div>
+            <div class="facts-icon-div s4 m4 padding-0">
+              <img src="img/client.png" class="responsive-img" />
+            </div>
+          </div>
+        </div>
+        <div class="row margin-bottom-0 facts-row">
+         <div class="col s12 m7 offset-m5 padding-0 facts-text-col card z-depth-3 valign-wrapper">
+          <div class="facts-icon-div s4 m4 padding-0">
+            <img src="img/work.png" class="responsive-img" />
+          </div>
+          <div class="facts-text-div col s8 m8">
+            <h6 class="facts-heading-text"><b>Work we have done</b></h6>
+            <h3 class="facts-number">2349</h3>
+            <b>It's so long time that we've worked hard to produce a good stuffs</b>
+          </div>
+        </div>
+      </div>
       <div class="row margin-bottom-0 facts-row">
         <div class="col s12 m7 padding-0 facts-text-col card z-depth-3 valign-wrapper">
           <div class="facts-text-div col s8 m8">
-            <h6 class="facts-heading-text"><b>All client around now</b></h6>
-            <h3 class="facts-number">1267</h3>
-            <b>We proud what we do and make the company growing</b>
+            <h6 class="facts-heading-text"><b>Speding time</b></h6>
+            <h3 class="facts-number">5789</h3>
+            <b>We work 24/7 and time for support our customers around the world</b>
           </div>
           <div class="facts-icon-div s4 m4 padding-0">
-            <img src="img/client.png" class="responsive-img" />
+            <img src="img/clock.png" class="responsive-img" />
           </div>
         </div>
       </div>
       <div class="row margin-bottom-0 facts-row">
        <div class="col s12 m7 offset-m5 padding-0 facts-text-col card z-depth-3 valign-wrapper">
         <div class="facts-icon-div s4 m4 padding-0">
-          <img src="img/work.png" class="responsive-img" />
+          <img src="img/likes.png" class="responsive-img" />
         </div>
         <div class="facts-text-div col s8 m8">
-          <h6 class="facts-heading-text"><b>Work we have done</b></h6>
-          <h3 class="facts-number">2349</h3>
-          <b>It's so long time that we've worked hard to produce a good stuffs</b>
+          <h6 class="facts-heading-text"><b>People like us</b></h6>
+          <h3 class="facts-number">9217</h3>
+          <b>Almost ten thousand people like us and we appreciated all that kind</b>
         </div>
-      </div>
-    </div>
-    <div class="row margin-bottom-0 facts-row">
-      <div class="col s12 m7 padding-0 facts-text-col card z-depth-3 valign-wrapper">
-        <div class="facts-text-div col s8 m8">
-          <h6 class="facts-heading-text"><b>Speding time</b></h6>
-          <h3 class="facts-number">5789</h3>
-          <b>We work 24/7 and time for support our customers around the world</b>
-        </div>
-        <div class="facts-icon-div s4 m4 padding-0">
-          <img src="img/clock.png" class="responsive-img" />
-        </div>
-      </div>
-    </div>
-    <div class="row margin-bottom-0 facts-row">
-     <div class="col s12 m7 offset-m5 padding-0 facts-text-col card z-depth-3 valign-wrapper">
-      <div class="facts-icon-div s4 m4 padding-0">
-        <img src="img/likes.png" class="responsive-img" />
-      </div>
-      <div class="facts-text-div col s8 m8">
-        <h6 class="facts-heading-text"><b>People like us</b></h6>
-        <h3 class="facts-number">9217</h3>
-        <b>Almost ten thousand people like us and we appreciated all that kind</b>
       </div>
     </div>
   </div>
-</div>
 </div>
 </div>
 </div>
 <div class="someourbrands">
   <div class="container-fluid">
     <div class="center">
-      <h3 class="center mainheading display-inline-block padding-left-0 hide-on-small-only"><b>Some of Our Brands</b></h3>
+      <h3 class="center mainheading display-inline-block padding-left-0"><b>Some of Our Brands</b></h3>
     </div>
-
-    <div class="center">
-     <h3 class="center mainheading display-inline-block hide-on-med-and-up margin-bottom-0"><b>Some of Our</b> </h3>
-     <h3 class="center mainheading display-inline-block hide-on-med-and-up"><b>Brands</b> </h3>
-   </div>
-   <br />
-   <div class="row">
-    <div class="brands-logos-div">
-      <div class="col brand-logo-col s6 m2 offset-m1">
-        <div class="z-depth-3 card valign-wrapper">
-          <img src="img/general-fujitsu.png" class="responsive-img" />
+    <br />
+    <div class="row">
+      <div class="brands-logos-div">
+        <div class="col brand-logo-col s6 m2 offset-m1">
+          <div class="z-depth-3 card valign-wrapper">
+            <img src="img/general-fujitsu.png" class="responsive-img" />
+          </div>
         </div>
-      </div>
-      <div class="col brand-logo-col s6 m2">
-        <div class="z-depth-3 card valign-wrapper">
-          <img src="img/lg-logo.jpg" class="responsive-img" />
+        <div class="col brand-logo-col s6 m2">
+          <div class="z-depth-3 card valign-wrapper">
+            <img src="img/lg-logo.jpg" class="responsive-img" />
+          </div>
+        </div>
+        <div class="col brand-logo-col s6 m2">
+         <div class="z-depth-3 card valign-wrapper">
+          <img src="img/mitsubishi-ac-logo.png" class="responsive-img" />
         </div>
       </div>
       <div class="col brand-logo-col s6 m2">
        <div class="z-depth-3 card valign-wrapper">
-        <img src="img/mitsubishi-ac-logo.png" class="responsive-img" />
+        <img src="img/daikin.jpg" class="responsive-img" />
       </div>
     </div>
-    <div class="col brand-logo-col s6 m2">
-     <div class="z-depth-3 card valign-wrapper">
-      <img src="img/daikin.jpg" class="responsive-img" />
+    <div class="col brand-logo-col offset-s3 s6 m2">
+      <div class="z-depth-3 card valign-wrapper">
+        <img src="img/carrier_logo2.jpg" class="responsive-img" />
+      </div>
     </div>
   </div>
-  <div class="col brand-logo-col offset-s3 s6 m2">
-    <div class="z-depth-3 card valign-wrapper">
-      <img src="img/carrier_logo2.jpg" class="responsive-img" />
-    </div>
-  </div>
-</div>
 </div>
 </div>
 </div>
@@ -495,14 +482,10 @@
 <div class="about" id="about">
   <div class="container-fluid">
    <div class="center">
-    <h3 class="white-text center mainheading display-inline-block hide-on-small-only"><b>ABOUT COOL TECH</b></h3>
+    <h3 class="white-text center mainheading display-inline-block"><b>ABOUT COOL TECH</b></h3>
   </div>
-  <div class="center">
-   <h3 class="white-text center mainheading display-inline-block hide-on-med-and-up margin-bottom-0"><b>ABOUT COOL</b> </h3>
-   <h3 class="white-text center mainheading display-inline-block hide-on-med-and-up"><b>TECH </b></h3>
- </div>
- <br />
- <div class="row margin-bottom-0">
+  <br />
+  <div class="row margin-bottom-0">
    <div class="col s12 m10 offset-m1">
      <h6 class="white-text about-cooltech-text text-justify">Cool Tech was established in 1980. Since then Cool Tech has become one of the largest supplier of 
       Air conditioning and refrigerating spare parts in the Kingdom of Saudi Arabia, including a wide sales network.</h6>
@@ -577,9 +560,6 @@
       $(".a-about").addClass("active");
     else if(currentScroll>contact-90)
       $(".a-contact").addClass("active");
-
-
-
     else if(currentScroll>services-90)
       $(".a-services").addClass("active");
 
