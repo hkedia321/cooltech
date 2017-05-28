@@ -157,8 +157,23 @@ nav.scrolled{
 .contact-div-wrap{
 	padding: 0 30px;
 }
+.lightbox-a .overlay{
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.5s ease;
+	position: absolute;
+}
 
-
+.lightbox-a{
+	cursor: zoom-in;
+	position: relative;
+	display: inline-block;
+}
+.lightbox-a:hover .overlay{
+	opacity: 1;
+}
 .about{
 	background-color: #2b2192;/*dark blue*/
 	padding: 20px 10px;
@@ -194,18 +209,19 @@ nav.scrolled{
 		margin-top: 1.5rem;
 	}
 	.whatsonshelf-content-div{
-	padding-left: 30px;
-	padding-right: 30px;
-}
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 }
 
 @media(max-width: 769px){
 	.services-card img{
 		width: 90%;
-		height: 110px !important;
+		height: auto !important;
 	}
 	.services-card{
 		padding: 5px 10px;
+		margin-bottom: 15px;
 	}
 	.home .home-tag-div{
 		margin-top: 7rem;
@@ -219,5 +235,12 @@ nav.scrolled{
 	}
 	.text-justify-in-mobile{
 		text-align: justify !important;
+	}
+	.testimonial-box{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.mainheading{
+		border-bottom: none;
 	}
 }
