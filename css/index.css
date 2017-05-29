@@ -113,10 +113,13 @@ nav.scrolled{
 }
 .testimonial-box{
 	margin-top: 4rem;
-	padding: 4rem 3rem 1rem 1rem;
+	padding: 2.5rem 2.7rem 2rem 2.7rem;
 	width: 80%;
 	margin-left: 2rem;
 	/*background-color: rgb(192,192,192);*/
+}
+.testimonial-box-first{
+	margin-top: 2rem;
 }
 .funfacts-col{
 	padding: 0.5rem 2rem !important;
