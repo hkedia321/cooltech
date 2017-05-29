@@ -67,6 +67,8 @@ nav.scrolled{
 .home-tag-div .onestop{
 	margin-top: 0pc;
 	padding-left: 10px;
+	font-size: 1.3rem !important;
+	font-weight: 550;
 }
 
 .mainheading{
@@ -74,7 +76,9 @@ nav.scrolled{
 	padding-bottom: 8px;
 	border-bottom: 0.1rem solid #000;
 }
-
+.mainheading-white{
+	border-bottom: 0.1rem solid #eee;
+}
 .cooltech_fridge{
 	width: 80%;
 	margin-left: auto;
